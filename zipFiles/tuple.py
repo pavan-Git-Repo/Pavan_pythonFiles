@@ -1,0 +1,10 @@
+from collections import namedtuple
+a = namedtuple('courses','name,technology')
+s = a('data science','python')
+print(s)
+a = namedtuple('courses','name,technology')
+s = a._make(['data science','python'])
+print(s)
+a = (1,2,3,4,5)
+b = (6,7,8,9)
+print(a+b)
